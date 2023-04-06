@@ -1,0 +1,58 @@
+.list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.musicDetails-container {
+  padding-left: 20px;
+}
+.song-image {
+  width: 250px;
+}
+
+.duration-delete-container {
+  display: flex;
+  align-items: center;
+}
+.right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.genre {
+  color: #3b82f6;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+.deleteButton {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+  cursor: pointer;
+}
+.duration {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 20px;
+}
+.deleteIcon {
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+}
